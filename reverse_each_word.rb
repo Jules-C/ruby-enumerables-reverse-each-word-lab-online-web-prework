@@ -1,11 +1,11 @@
 def reverse_each_word(string)
   a = string.split
- # a.collect {|word| word.reverse}.join(' ')
+  a.collect {|word| word.reverse}.join(' ')
  new_array = []
- a.each do | word |
-  new_array << word.reverse
-  end
-  new_array.join(' ')
+# a.each do | word |
+#   new_array << word.reverse
+#   end
+#   new_array.join(' ')
 end 
 
  # { |b| "#{b.reverse} on #{"bread".reverse}" }
