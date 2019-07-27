@@ -2,7 +2,7 @@ def reverse_each_word(string)
   a = string.split
   a.collect do |a|
    b = a.reverse 
-   
+   b.join(' ')
   end
   
 end 
