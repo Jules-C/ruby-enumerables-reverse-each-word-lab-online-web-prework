@@ -1,8 +1,8 @@
 def reverse_each_word(string)
   a = string.split
   a.collect do |word|
-   b = word.reverse 
-   b.join(' ')
+   word.reverse.join(' ') 
+  
   end
 end 
  # { |b| "#{b.reverse} on #{"bread".reverse}" }
